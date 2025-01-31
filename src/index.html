@@ -3,16 +3,32 @@
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elevador</title>
     <link rel="shortcut icon" href="/img/ico.jpg" />
     <link href="./output.css" rel="stylesheet">
 </head>
-<body>
+<body class="font-grotesk-200 bg-main2">
     
-
+    <div class="flex justify-center items-center h-screen">
+        <section class="flex-col justify-between flex mt-20 w-48 h-96 bg-main5 mr-20">
+            <div id="floor4" class="flex justify-center m-4">4º</div>
+            <div class="border-b-2"></div>
+            <div id="floor3" class="flex justify-center m-4">3º</div>
+            <div class="border-b-2"></div>
+            <div id="floor2" class="flex justify-center m-4">2º</div>
+            <div class="border-b-2"></div>
+            <div id="floor1" class="flex justify-center m-4">1º</div>
+        </section>
+        <section class="flex flex-col justify-center">
+            <button id="goTo4" class="bg-main6 h-10 w-12 rounded-xl hover:bg-sec2 mb-4 hover:text-amber-50">4</button>
+            <button id="goTo3" class="bg-main6 h-10 w-12 rounded-xl hover:bg-sec2 mb-4 hover:text-amber-50">3</button>
+            <button id="goTo2" class="bg-main6 h-10 w-12 rounded-xl hover:bg-sec2 mb-4 hover:text-amber-50">2</button>
+            <button id="goTo1" class="bg-main6 h-10 w-12 rounded-xl hover:bg-sec2 mb-4 hover:text-amber-50">1</button>
+        </section>
+    </div>
         
     <script src="./scripts.js"></script>
 </body>

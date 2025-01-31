@@ -1,1 +1,17 @@
 @import "tailwindcss";
+
+@theme {
+    --color-main1: #F8F9FA;
+    --color-main2: #E9ECEF;
+    --color-main3: #DEE2E6;
+    --color-main4: #CED4DA;
+    --color-main5: #ADB5BD;
+    --color-main6: #6C757D;
+    --color-main7: #495057;
+    --color-main8: #343A40;
+    --color-main8: #212529;
+    --color-sec1: #660708;
+    --color-sec2: #6b9080;
+
+    --font-grotesk-200: "Space Grotesk", serif, normal;
+}
